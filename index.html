@@ -13,83 +13,85 @@
         <input id="search" name="search" placeholder="Search By Image Name" type="text" data-list=".inner-wrapper">
       </div>
       <div class="inner-wrapper">
-        <div class="item-1">
-          <span>Hay Bales</span>
+        <!-- <div class="item-1"> -->
+          <!-- <span>Hay Bales</span> -->
           <a href="img/01.jpg" data-lightbox="image" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields." alt="Hey Bales">
           <img src="img/thumbnails/01.jpg">
           </a>
-        </div>
-        <div class="item-2">
-          <span>Lake</span>
+        <!-- </div> -->
+        <!-- <div class="item-2"> -->
+          <!-- <span>Lake</span> -->
           <a href="img/02.jpg" data-lightbox="image" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here." alt="Lake">
           <img src="img/thumbnails/02.jpg"/>
           </a>
-        </div>
-        <div class="item-3">
-          <span>Canyon</span>
+        <!-- </div> -->
+        <!-- <div class="item-3"> -->
+          <!-- <span>Canyon</span> -->
           <a href="img/03.jpg" data-lightbox="image" data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below." alt="Canyon">
           <img src="img/thumbnails/03.jpg"/>
           </a>
-        </div>
-        <div class="item-4">
-          <span>Iceberg</span>
+        <!-- </div> -->
+        <!-- <div class="item-4"> -->
+          <!-- <span>Iceberg</span> -->
           <a href="img/04.jpg" data-lightbox="image"  data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today." alt="Iceberg">
           <img src="img/thumbnails/04.jpg"/>
           </a>
-        </div>
-        <div class="item-5">
-          <span>Desert</span>
+        <!-- </div> -->
+        <!-- <div class="item-5"> -->
+          <!-- <span>Desert</span> -->
           <a href="img/05.jpg" data-lightbox="image"  data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons." alt="Desert">
           <img src="img/thumbnails/05.jpg"/>
           </a>
-        </div>
-        <div class="item-6">
-          <span>Fall</span>
+        <!-- </div> -->
+        <!-- <div class="item-6"> -->
+          <!-- <span>Fall</span> -->
           <a href="img/06.jpg" data-lightbox="image"  data-title="Fall is coming, I love when the leaves on the trees start to change color." alt="Fall">
           <img src="img/thumbnails/06.jpg"/>
           </a>
-        </div>
-        <div class="item-7">
-          <span>Plantation</span>
+        <!-- </div> -->
+        <!-- <div class="item-7"> -->
+          <!-- <span>Plantation</span> -->
           <a href="img/07.jpg" data-lightbox="image"  data-title="I drove past this plantation yesterday, everything is so green!" alt="Plantation">
           <img src="img/thumbnails/07.jpg"/>
           </a>
-        </div>
-        <div class="item-8">
-          <span>Dunes</span>
+        <!-- </div>
+        <div class="item-8"> -->
+          <!-- <span>Dunes</span> -->
           <a href="img/08.jpg" data-lightbox="image"  data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!" alt="Dunes">
           <img src="img/thumbnails/08.jpg"/>
           </a>
-        </div>
-        <div class="item-9">
-          <span>Countryside Lane</span>
+        <!-- </div>
+        <div class="item-9"> -->
+          <!-- <span>Countryside Lane</span> -->
           <a href="img/09.jpg" data-lightbox="image"  data-title="We enjoyed a quiet stroll down this countryside lane." alt="Countryside Lane">
           <img src="img/thumbnails/09.jpg"/>
           </a>
-        </div>
-        <div class="item-10">
-          <span>Sunset</span>
+        <!-- </div>
+        <div class="item-10"> -->
+          <!-- <span>Sunset</span> -->
           <a href="img/10.jpg" data-lightbox="image"  data-title="Sunset at the coast! The sky turned a lovely shade of orange." alt="Sunset">
           <img src="img/thumbnails/10.jpg"/>
           </a>
-        </div>
-        <div class="item-11">
-          <span>Cave</span>
+        <!-- </div>
+        <div class="item-11"> -->
+          <!-- <span>Cave</span> -->
           <a href="img/11.jpg" data-lightbox="image"  data-title="I did a tour of a cave today and the view of the landscape below was breathtaking." alt="Cave">
           <img src="img/thumbnails/11.jpg"/>
           </a>
-        </div>
-        <div class="item-12">
-          <span>Bluebells</span>
+        <!-- </div>
+        <div class="item-12"> -->
+          <!-- <span>Bluebells</span> -->
           <a href="img/12.jpg" data-lightbox="image"  data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in." alt="Bluebells">
           <img src="img/thumbnails/12.jpg"/>
           </a>
-        </div>
+        <!-- </div> -->
       </div>
     </div>
     <script type="text/javascript">
       $(document).ready(function() {
-	    $('#search').hideseek();
+	    $('#search').hideseek({
+        attribute: 'data-title'
+      });
       });
     </script>
     <script src="node_modules/lightbox2/src/js/lightbox.js"></script>
